@@ -12,7 +12,7 @@ namespace MvcTest.Controllers
 {
     public class FileDBController : Controller
     {
-        private string pathDB = @"C:\Temp\MvcData.dat";
+        private string pathDB = @"D:\Temp\MvcData.dat";
 
         public ActionResult Index()
         {

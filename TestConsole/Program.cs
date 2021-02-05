@@ -16,10 +16,10 @@ namespace TestConsole
             // Parallel Insert
             //
 
-            string dbFile = @"C:\Temp\MvcDemo.dat";
+            string dbFile = @"D:\Temp\MvcDemo.dat";
 
             string[] files = new string[] {
-                @"C:\Temp\DSC04901.jpg", @"C:\Temp\DSC04902.jpg", @"C:\Temp\ZipFile.zip" };
+                @"D:\Temp\DSC04901.jpg", @"D:\Temp\DSC04902.jpg", @"D:\Temp\ZipFile.zip" };
 
             Parallel.For(0, 3, (i) =>
             {
